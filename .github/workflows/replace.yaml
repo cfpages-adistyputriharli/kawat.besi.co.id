@@ -1,0 +1,49 @@
+name: Search and Replace v.2
+
+on:
+  workflow_dispatch:  # Allows manual triggering of the workflow
+    inputs:
+      search_phrase:
+        description: 'Phrase to search for'
+        required: true
+      replace_phrase:
+        description: 'Phrase to replace with'
+        required: true
+      file_name_contains:
+        description: 'Phrase contained in the file name (optional)'
+        required: false
+        default: ''
+
+permissions:
+  contents: write  # Grant write permissions to the repository contents
+
+jobs:
+  search_and_replace:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Python environment
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'  # Specify the Python version you want to use
+
+      - name: Search and replace phrase in .html files and commit changes
+        env:
+          SEARCH_PHRASE: ${{ github.event.inputs.search_phrase }}
+          REPLACE_PHRASE: ${{ github.event.inputs.replace_phrase }}
+          FILE_NAME_CONTAINS: ${{ github.event.inputs.file_name_contains }}
+        run: |
+          find . -name "*${FILE_NAME_CONTAINS}*.html" -type f -exec sed -i "s|$(printf '%s\n' "${SEARCH_PHRASE}" | sed 's:[\/&]:\\&:g')|$(printf '%s\n' "${REPLACE_PHRASE}" | sed 's:[\/&]:\\&:g')|g" {} +
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add .
+          git commit -m "change ${SEARCH_PHRASE} to ${REPLACE_PHRASE} on $(date +'%Y-%m-%d')"
+
+      - name: Push changes
+        env:
+          GH_PAT: ${{ secrets.GH_PAT }}
+        run: |
+          git remote set-url origin https://x-access-token:${GH_PAT}@github.com/${{ github.repository }}
+          git push origin HEAD:main
