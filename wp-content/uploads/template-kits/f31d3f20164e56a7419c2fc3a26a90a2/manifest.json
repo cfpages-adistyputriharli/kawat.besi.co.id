@@ -1,0 +1,1795 @@
+{
+    "manifest_version": "1.0.21",
+    "title": "Poolrez",
+    "page_builder": "elementor",
+    "kit_version": "1.0.0",
+    "templates": [
+        {
+            "name": "Global Kit Styles",
+            "screenshot": "screenshots\/global-kit-styles.jpg",
+            "source": "templates\/global.json",
+            "preview_url": "https:\/\/elementorpress.com\/poolrez",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "global-styles",
+                "include_in_zip": "1",
+                "elementor_pro_required": null,
+                "additional_template_information": [
+                    "These are the global theme styles configured through the Elementor Theme Styles area."
+                ]
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Contact form",
+            "screenshot": "screenshots\/contact-form.jpg",
+            "source": "templates\/contact-form.json",
+            "preview_url": "https:\/\/elementorpress.com\/poolrez\/template-kit\/contact-form\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-other",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Get Estimation form",
+            "screenshot": "screenshots\/get-estimation-form.jpg",
+            "source": "templates\/get-estimation-form.json",
+            "preview_url": "https:\/\/elementorpress.com\/poolrez\/template-kit\/get-estimation-form\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-other",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Newsletter form",
+            "screenshot": "screenshots\/newsletter-form.jpg",
+            "source": "templates\/newsletter-form.json",
+            "preview_url": "https:\/\/elementorpress.com\/poolrez\/template-kit\/newsletter-form\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-other",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Header 01",
+            "screenshot": "screenshots\/header-01.jpg",
+            "source": "templates\/header-01.json",
+            "preview_url": "https:\/\/elementorpress.com\/poolrez\/template-kit\/header-01\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-header",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Header 02",
+            "screenshot": "screenshots\/header-02.jpg",
+            "source": "templates\/header-02.json",
+            "preview_url": "https:\/\/elementorpress.com\/poolrez\/template-kit\/header-02\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-header",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Header 03",
+            "screenshot": "screenshots\/header-03.jpg",
+            "source": "templates\/header-03.json",
+            "preview_url": "https:\/\/elementorpress.com\/poolrez\/template-kit\/header-03\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-header",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Footer",
+            "screenshot": "screenshots\/footer.jpg",
+            "source": "templates\/footer.json",
+            "preview_url": "https:\/\/elementorpress.com\/poolrez\/template-kit\/footer\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-footer",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Home 01",
+            "screenshot": "screenshots\/home-01.jpg",
+            "source": "templates\/home-01.json",
+            "preview_url": "https:\/\/elementorpress.com\/poolrez\/template-kit\/home-01\/",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-home",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Home 02",
+            "screenshot": "screenshots\/home-02.jpg",
+            "source": "templates\/home-02.json",
+            "preview_url": "https:\/\/elementorpress.com\/poolrez\/template-kit\/home-02\/",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-home",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Home 03",
+            "screenshot": "screenshots\/home-03.jpg",
+            "source": "templates\/home-03.json",
+            "preview_url": "https:\/\/elementorpress.com\/poolrez\/template-kit\/home-03\/",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-home",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "About",
+            "screenshot": "screenshots\/about.jpg",
+            "source": "templates\/about.json",
+            "preview_url": "https:\/\/elementorpress.com\/poolrez\/template-kit\/about\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Services",
+            "screenshot": "screenshots\/services.jpg",
+            "source": "templates\/services.json",
+            "preview_url": "https:\/\/elementorpress.com\/poolrez\/template-kit\/services\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Pricing",
+            "screenshot": "screenshots\/pricing.jpg",
+            "source": "templates\/pricing.json",
+            "preview_url": "https:\/\/elementorpress.com\/poolrez\/template-kit\/pricing\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Faq",
+            "screenshot": "screenshots\/faq.jpg",
+            "source": "templates\/faq.json",
+            "preview_url": "https:\/\/elementorpress.com\/poolrez\/template-kit\/faq\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Our team",
+            "screenshot": "screenshots\/our-team.jpg",
+            "source": "templates\/our-team.json",
+            "preview_url": "https:\/\/elementorpress.com\/poolrez\/template-kit\/our-team\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Testimonials",
+            "screenshot": "screenshots\/testimonials.jpg",
+            "source": "templates\/testimonials.json",
+            "preview_url": "https:\/\/elementorpress.com\/poolrez\/template-kit\/testimonials\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Single Post",
+            "screenshot": "screenshots\/single-post.jpg",
+            "source": "templates\/single-post.json",
+            "preview_url": "https:\/\/elementorpress.com\/poolrez\/template-kit\/single-post\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Coming Soon",
+            "screenshot": "screenshots\/coming-soon.jpg",
+            "source": "templates\/coming-soon.json",
+            "preview_url": "https:\/\/elementorpress.com\/poolrez\/template-kit\/coming-soon\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "404",
+            "screenshot": "screenshots\/404.png",
+            "source": "templates\/404.json",
+            "preview_url": "https:\/\/elementorpress.com\/poolrez\/template-kit\/404\/",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-404",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Blog",
+            "screenshot": "screenshots\/blog.jpg",
+            "source": "templates\/blog.json",
+            "preview_url": "https:\/\/elementorpress.com\/poolrez\/template-kit\/blog\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Contact us",
+            "screenshot": "screenshots\/contact-us.jpg",
+            "source": "templates\/contact-us.json",
+            "preview_url": "https:\/\/elementorpress.com\/poolrez\/template-kit\/contact-us\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        }
+    ],
+    "required_plugins": [
+        {
+            "name": "Elementor",
+            "version": "3.21.6",
+            "file": "elementor\/elementor.php",
+            "author": "Elementor.com"
+        },
+        {
+            "name": "ElementsKit Lite",
+            "version": "3.1.4",
+            "file": "elementskit-lite\/elementskit-lite.php",
+            "author": "Wpmet"
+        },
+        {
+            "name": "Jeg Elementor Kit",
+            "version": "2.6.5",
+            "file": "jeg-elementor-kit\/jeg-elementor-kit.php",
+            "author": "Jegtheme"
+        },
+        {
+            "name": "MetForm",
+            "version": "3.8.8",
+            "file": "metform\/metform.php",
+            "author": "Wpmet"
+        }
+    ],
+    "images": [
+        {
+            "filename": "header-logo.png",
+            "thumbnail_url": "https:\/\/elementorpress.com\/poolrez\/wp-content\/uploads\/2024\/05\/header-logo.png",
+            "templates": [
+                {
+                    "source": "templates\/header-01.json",
+                    "name": "Header 01"
+                },
+                {
+                    "source": "templates\/header-02.json",
+                    "name": "Header 02"
+                },
+                {
+                    "source": "templates\/header-03.json",
+                    "name": "Header 03"
+                },
+                {
+                    "source": "templates\/coming-soon.json",
+                    "name": "Coming Soon"
+                },
+                {
+                    "source": "templates\/404.json",
+                    "name": "404"
+                }
+            ],
+            "filesize": 1413,
+            "dimensions": [
+                164,
+                39
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/fr\/swim-pool-logo-ZK2B9A"
+        },
+        {
+            "filename": "footer-logo.png",
+            "thumbnail_url": "https:\/\/elementorpress.com\/poolrez\/wp-content\/uploads\/2024\/05\/footer-logo.png",
+            "templates": [
+                {
+                    "source": "templates\/header-01.json",
+                    "name": "Header 01"
+                },
+                {
+                    "source": "templates\/header-02.json",
+                    "name": "Header 02"
+                },
+                {
+                    "source": "templates\/header-03.json",
+                    "name": "Header 03"
+                },
+                {
+                    "source": "templates\/footer.json",
+                    "name": "Footer"
+                }
+            ],
+            "filesize": 1199,
+            "dimensions": [
+                158,
+                32
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/fr\/swim-pool-logo-ZK2B9A"
+        },
+        {
+            "filename": "phone-icon.png",
+            "thumbnail_url": "https:\/\/elementorpress.com\/poolrez\/wp-content\/uploads\/2024\/05\/phone-icon.png",
+            "templates": [
+                {
+                    "source": "templates\/header-01.json",
+                    "name": "Header 01"
+                }
+            ],
+            "filesize": 836,
+            "dimensions": [
+                34,
+                30
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "home-02-phone-icon.png",
+            "thumbnail_url": "https:\/\/elementorpress.com\/poolrez\/wp-content\/uploads\/2024\/05\/home-02-phone-icon.png",
+            "templates": [
+                {
+                    "source": "templates\/header-02.json",
+                    "name": "Header 02"
+                }
+            ],
+            "filesize": 618,
+            "dimensions": [
+                22,
+                20
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "PHONE-ICON-HOME-03.png",
+            "thumbnail_url": "https:\/\/elementorpress.com\/poolrez\/wp-content\/uploads\/2024\/05\/PHONE-ICON-HOME-03.png",
+            "templates": [
+                {
+                    "source": "templates\/header-03.json",
+                    "name": "Header 03"
+                }
+            ],
+            "filesize": 246,
+            "dimensions": [
+                17,
+                17
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "Home-01-bg.jpg",
+            "thumbnail_url": "https:\/\/elementorpress.com\/poolrez\/wp-content\/uploads\/2024\/05\/Home-01-bg.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-01.json",
+                    "name": "Home 01"
+                }
+            ],
+            "filesize": 87900,
+            "dimensions": [
+                1920,
+                920
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/fr\/automated-pool-cleaner-P7Q9DGP"
+        },
+        {
+            "filename": "mouse-img.png",
+            "thumbnail_url": "https:\/\/elementorpress.com\/poolrez\/wp-content\/uploads\/2024\/05\/mouse-img.png",
+            "templates": [
+                {
+                    "source": "templates\/home-01.json",
+                    "name": "Home 01"
+                }
+            ],
+            "filesize": 393,
+            "dimensions": [
+                31,
+                45
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "service-img-1.jpg",
+            "thumbnail_url": "https:\/\/elementorpress.com\/poolrez\/wp-content\/uploads\/2024\/05\/service-img-1.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-01.json",
+                    "name": "Home 01"
+                }
+            ],
+            "filesize": 21823,
+            "dimensions": [
+                350,
+                228
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/fr\/cleaning-swimming-pool-with-skimmer-net-E6C58UU"
+        },
+        {
+            "filename": "service-icon-1.png",
+            "thumbnail_url": "https:\/\/elementorpress.com\/poolrez\/wp-content\/uploads\/2024\/05\/service-icon-1.png",
+            "templates": [
+                {
+                    "source": "templates\/home-01.json",
+                    "name": "Home 01"
+                }
+            ],
+            "filesize": 790,
+            "dimensions": [
+                45,
+                52
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/fr\/cleaning-icon-R3MFM9D"
+        },
+        {
+            "filename": "service-img-2.jpg",
+            "thumbnail_url": "https:\/\/elementorpress.com\/poolrez\/wp-content\/uploads\/2024\/05\/service-img-2.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-01.json",
+                    "name": "Home 01"
+                }
+            ],
+            "filesize": 18100,
+            "dimensions": [
+                350,
+                228
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/fr\/man-cleans-skimmer-for-the-frame-pool-contaminated-EN7HZHE"
+        },
+        {
+            "filename": "service-icon-2.png",
+            "thumbnail_url": "https:\/\/elementorpress.com\/poolrez\/wp-content\/uploads\/2024\/05\/service-icon-2.png",
+            "templates": [
+                {
+                    "source": "templates\/home-01.json",
+                    "name": "Home 01"
+                }
+            ],
+            "filesize": 1056,
+            "dimensions": [
+                46,
+                54
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/fr\/cleaning-icon-R3MFM9D"
+        },
+        {
+            "filename": "service-img-3.jpg",
+            "thumbnail_url": "https:\/\/elementorpress.com\/poolrez\/wp-content\/uploads\/2024\/05\/service-img-3.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-01.json",
+                    "name": "Home 01"
+                }
+            ],
+            "filesize": 17588,
+            "dimensions": [
+                350,
+                228
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/fr\/swimming-pool-maintenance-work-in-progress-AVUXT6Q"
+        },
+        {
+            "filename": "service-icon-3.png",
+            "thumbnail_url": "https:\/\/elementorpress.com\/poolrez\/wp-content\/uploads\/2024\/05\/service-icon-3.png",
+            "templates": [
+                {
+                    "source": "templates\/home-01.json",
+                    "name": "Home 01"
+                }
+            ],
+            "filesize": 705,
+            "dimensions": [
+                51,
+                45
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/fr\/cleaning-icon-R3MFM9D"
+        },
+        {
+            "filename": "About-1.jpg",
+            "thumbnail_url": "https:\/\/elementorpress.com\/poolrez\/wp-content\/uploads\/2024\/05\/About-1.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-01.json",
+                    "name": "Home 01"
+                },
+                {
+                    "source": "templates\/single-post.json",
+                    "name": "Single Post"
+                }
+            ],
+            "filesize": 61281,
+            "dimensions": [
+                531,
+                531
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/fr\/pool-net-leaf-skimmer-rake-in-summer-8BBRP9H"
+        },
+        {
+            "filename": "home-01-about-img.jpg",
+            "thumbnail_url": "https:\/\/elementorpress.com\/poolrez\/wp-content\/uploads\/2024\/05\/home-01-about-img.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-01.json",
+                    "name": "Home 01"
+                }
+            ],
+            "filesize": 10613,
+            "dimensions": [
+                224,
+                220
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/fr\/outdoor-pool-maintenance-service-worker-NCCZA9P"
+        },
+        {
+            "filename": "About-icon-1.png",
+            "thumbnail_url": "https:\/\/elementorpress.com\/poolrez\/wp-content\/uploads\/2024\/05\/About-icon-1.png",
+            "templates": [
+                {
+                    "source": "templates\/home-01.json",
+                    "name": "Home 01"
+                },
+                {
+                    "source": "templates\/home-02.json",
+                    "name": "Home 02"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 1234,
+            "dimensions": [
+                76,
+                59
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/fr\/swim-pool-logo-ZK2B9A"
+        },
+        {
+            "filename": "Get-Estimation-logo-1.png",
+            "thumbnail_url": "https:\/\/elementorpress.com\/poolrez\/wp-content\/uploads\/2024\/05\/Get-Estimation-logo-1.png",
+            "templates": [
+                {
+                    "source": "templates\/home-01.json",
+                    "name": "Home 01"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 1950,
+            "dimensions": [
+                253,
+                232
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/fr\/swim-pool-logo-ZK2B9A"
+        },
+        {
+            "filename": "Get-Estimation-bg-shapes.png",
+            "thumbnail_url": "https:\/\/elementorpress.com\/poolrez\/wp-content\/uploads\/2024\/05\/Get-Estimation-bg-shapes.png",
+            "templates": [
+                {
+                    "source": "templates\/home-01.json",
+                    "name": "Home 01"
+                },
+                {
+                    "source": "templates\/home-02.json",
+                    "name": "Home 02"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 199132,
+            "dimensions": [
+                1232,
+                1310
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.freepik.com\/free-vector\/flat-design-abstract-outline-background_52805272.htm#fromView=search&page=1&position=16&uuid=50fd8c0f-db1c-4fac-82a9-3bb77b05b4c1"
+        },
+        {
+            "filename": "Get-Estimation-icon-1.png",
+            "thumbnail_url": "https:\/\/elementorpress.com\/poolrez\/wp-content\/uploads\/2024\/05\/Get-Estimation-icon-1.png",
+            "templates": [
+                {
+                    "source": "templates\/home-01.json",
+                    "name": "Home 01"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 1212,
+            "dimensions": [
+                80,
+                71
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/fr\/cleaning-service-outline-icons-F3MZ5N7"
+        },
+        {
+            "filename": "Get-Estimation-imge1.jpg",
+            "thumbnail_url": "https:\/\/elementorpress.com\/poolrez\/wp-content\/uploads\/2024\/05\/Get-Estimation-imge1.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-01.json",
+                    "name": "Home 01"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 106894,
+            "dimensions": [
+                870,
+                808
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/fr\/a-man-cleans-a-pool-on-a-hotel-grounds-in-a-tropic-SCZ8TKM"
+        },
+        {
+            "filename": "Our-Statistics-icon-1.png",
+            "thumbnail_url": "https:\/\/elementorpress.com\/poolrez\/wp-content\/uploads\/2024\/05\/Our-Statistics-icon-1.png",
+            "templates": [
+                {
+                    "source": "templates\/home-01.json",
+                    "name": "Home 01"
+                },
+                {
+                    "source": "templates\/home-03.json",
+                    "name": "Home 03"
+                },
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our team"
+                }
+            ],
+            "filesize": 845,
+            "dimensions": [
+                36,
+                42
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/fr\/business-icons-KSVEWAK\/preview"
+        },
+        {
+            "filename": "Our-Statistics-icon-2.png",
+            "thumbnail_url": "https:\/\/elementorpress.com\/poolrez\/wp-content\/uploads\/2024\/05\/Our-Statistics-icon-2.png",
+            "templates": [
+                {
+                    "source": "templates\/home-01.json",
+                    "name": "Home 01"
+                },
+                {
+                    "source": "templates\/home-03.json",
+                    "name": "Home 03"
+                },
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our team"
+                }
+            ],
+            "filesize": 897,
+            "dimensions": [
+                51,
+                29
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/fr\/business-icons-KSVEWAK\/preview"
+        },
+        {
+            "filename": "Our-Statistics-icon-3.png",
+            "thumbnail_url": "https:\/\/elementorpress.com\/poolrez\/wp-content\/uploads\/2024\/05\/Our-Statistics-icon-3.png",
+            "templates": [
+                {
+                    "source": "templates\/home-01.json",
+                    "name": "Home 01"
+                },
+                {
+                    "source": "templates\/home-03.json",
+                    "name": "Home 03"
+                },
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our team"
+                }
+            ],
+            "filesize": 538,
+            "dimensions": [
+                34,
+                42
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/fr\/business-icons-KSVEWAK\/preview"
+        },
+        {
+            "filename": "Our-Statistics-icon-4.png",
+            "thumbnail_url": "https:\/\/elementorpress.com\/poolrez\/wp-content\/uploads\/2024\/05\/Our-Statistics-icon-4.png",
+            "templates": [
+                {
+                    "source": "templates\/home-01.json",
+                    "name": "Home 01"
+                },
+                {
+                    "source": "templates\/home-03.json",
+                    "name": "Home 03"
+                },
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our team"
+                }
+            ],
+            "filesize": 970,
+            "dimensions": [
+                44,
+                40
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/fr\/business-icons-KSVEWAK\/preview"
+        },
+        {
+            "filename": "Video-sec-bg.jpg",
+            "thumbnail_url": "https:\/\/elementorpress.com\/poolrez\/wp-content\/uploads\/2024\/05\/Video-sec-bg.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-01.json",
+                    "name": "Home 01"
+                },
+                {
+                    "source": "templates\/home-03.json",
+                    "name": "Home 03"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                },
+                {
+                    "source": "templates\/testimonials.json",
+                    "name": "Testimonials"
+                },
+                {
+                    "source": "templates\/blog.json",
+                    "name": "Blog"
+                }
+            ],
+            "filesize": 107450,
+            "dimensions": [
+                1920,
+                571
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/fr\/women-swimming-together-in-indoor-swimming-pool-XYU6RKH"
+        },
+        {
+            "filename": "tesam-1.jpg",
+            "thumbnail_url": "https:\/\/elementorpress.com\/poolrez\/wp-content\/uploads\/2024\/05\/tesam-1.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-01.json",
+                    "name": "Home 01"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our team"
+                }
+            ],
+            "filesize": 5925,
+            "dimensions": [
+                255,
+                255
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/fr\/man-in-working-uniform-blue-box-cap-loading-servic-DFG3HSK"
+        },
+        {
+            "filename": "team-2.jpg",
+            "thumbnail_url": "https:\/\/elementorpress.com\/poolrez\/wp-content\/uploads\/2024\/05\/team-2.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-01.json",
+                    "name": "Home 01"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our team"
+                }
+            ],
+            "filesize": 6950,
+            "dimensions": [
+                255,
+                255
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/fr\/realistic-plumber-doll-PWHWG9C"
+        },
+        {
+            "filename": "team-3.jpg",
+            "thumbnail_url": "https:\/\/elementorpress.com\/poolrez\/wp-content\/uploads\/2024\/05\/team-3.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-01.json",
+                    "name": "Home 01"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our team"
+                }
+            ],
+            "filesize": 6126,
+            "dimensions": [
+                255,
+                255
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/fr\/writes-in-notepad-male-worker-in-blue-uniform-stan-EJSD5LR"
+        },
+        {
+            "filename": "team-4.jpg",
+            "thumbnail_url": "https:\/\/elementorpress.com\/poolrez\/wp-content\/uploads\/2024\/05\/team-4.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-01.json",
+                    "name": "Home 01"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our team"
+                }
+            ],
+            "filesize": 7969,
+            "dimensions": [
+                255,
+                255
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/fr\/business-icons-KSVEWAK\/preview"
+        },
+        {
+            "filename": "testimonials-img-1.png",
+            "thumbnail_url": "https:\/\/elementorpress.com\/poolrez\/wp-content\/uploads\/2024\/05\/testimonials-img-1.png",
+            "templates": [
+                {
+                    "source": "templates\/home-01.json",
+                    "name": "Home 01"
+                },
+                {
+                    "source": "templates\/home-02.json",
+                    "name": "Home 02"
+                },
+                {
+                    "source": "templates\/home-03.json",
+                    "name": "Home 03"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "Faq"
+                },
+                {
+                    "source": "templates\/testimonials.json",
+                    "name": "Testimonials"
+                },
+                {
+                    "source": "templates\/blog.json",
+                    "name": "Blog"
+                }
+            ],
+            "filesize": 4266,
+            "dimensions": [
+                78,
+                78
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collage-of-happy-multiracial-people-faces-on-gray--UBNG9AE"
+        },
+        {
+            "filename": "Home-02.jpg",
+            "thumbnail_url": "https:\/\/elementorpress.com\/poolrez\/wp-content\/uploads\/2024\/05\/Home-02.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-02.json",
+                    "name": "Home 02"
+                }
+            ],
+            "filesize": 356248,
+            "dimensions": [
+                1920,
+                806
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/fr\/poolside-maintenance-worker-cleaning-water-surface-6LF9DT4"
+        },
+        {
+            "filename": "home-img-persone.png",
+            "thumbnail_url": "https:\/\/elementorpress.com\/poolrez\/wp-content\/uploads\/2024\/05\/home-img-persone.png",
+            "templates": [
+                {
+                    "source": "templates\/home-02.json",
+                    "name": "Home 02"
+                }
+            ],
+            "filesize": 133848,
+            "dimensions": [
+                525,
+                776
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/portrait-of-factory-worker-young-handsome-factory--YCR9MGX\/preview"
+        },
+        {
+            "filename": "Cricle-img.png",
+            "thumbnail_url": "https:\/\/elementorpress.com\/poolrez\/wp-content\/uploads\/2024\/05\/Cricle-img.png",
+            "templates": [
+                {
+                    "source": "templates\/home-02.json",
+                    "name": "Home 02"
+                }
+            ],
+            "filesize": 3958,
+            "dimensions": [
+                511,
+                511
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "service-icon-1-1.png",
+            "thumbnail_url": "https:\/\/elementorpress.com\/poolrez\/wp-content\/uploads\/2024\/05\/service-icon-1-1.png",
+            "templates": [
+                {
+                    "source": "templates\/home-02.json",
+                    "name": "Home 02"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 776,
+            "dimensions": [
+                45,
+                52
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/fr\/cleaning-service-outline-icons-F3MZ5N7"
+        },
+        {
+            "filename": "service-icon-2-1.png",
+            "thumbnail_url": "https:\/\/elementorpress.com\/poolrez\/wp-content\/uploads\/2024\/05\/service-icon-2-1.png",
+            "templates": [
+                {
+                    "source": "templates\/home-02.json",
+                    "name": "Home 02"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 1003,
+            "dimensions": [
+                46,
+                54
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/fr\/cleaning-service-outline-icons-F3MZ5N7"
+        },
+        {
+            "filename": "service-icon-3-1.png",
+            "thumbnail_url": "https:\/\/elementorpress.com\/poolrez\/wp-content\/uploads\/2024\/05\/service-icon-3-1.png",
+            "templates": [
+                {
+                    "source": "templates\/home-02.json",
+                    "name": "Home 02"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 727,
+            "dimensions": [
+                56,
+                48
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/fr\/cleaning-service-outline-icons-F3MZ5N7"
+        },
+        {
+            "filename": "service-icon-4.png",
+            "thumbnail_url": "https:\/\/elementorpress.com\/poolrez\/wp-content\/uploads\/2024\/05\/service-icon-4.png",
+            "templates": [
+                {
+                    "source": "templates\/home-02.json",
+                    "name": "Home 02"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 737,
+            "dimensions": [
+                46,
+                56
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/fr\/cleaning-service-outline-icons-F3MZ5N7"
+        },
+        {
+            "filename": "service-icon-5.png",
+            "thumbnail_url": "https:\/\/elementorpress.com\/poolrez\/wp-content\/uploads\/2024\/05\/service-icon-5.png",
+            "templates": [
+                {
+                    "source": "templates\/home-02.json",
+                    "name": "Home 02"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 934,
+            "dimensions": [
+                59,
+                46
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/fr\/cleaning-service-outline-icons-F3MZ5N7"
+        },
+        {
+            "filename": "service-icon-6.png",
+            "thumbnail_url": "https:\/\/elementorpress.com\/poolrez\/wp-content\/uploads\/2024\/05\/service-icon-6.png",
+            "templates": [
+                {
+                    "source": "templates\/home-02.json",
+                    "name": "Home 02"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 1045,
+            "dimensions": [
+                56,
+                62
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/fr\/cleaning-service-outline-icons-F3MZ5N7"
+        },
+        {
+            "filename": "About-img.jpg",
+            "thumbnail_url": "https:\/\/elementorpress.com\/poolrez\/wp-content\/uploads\/2024\/05\/About-img.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-02.json",
+                    "name": "Home 02"
+                }
+            ],
+            "filesize": 105554,
+            "dimensions": [
+                940,
+                752
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/portrait-of-factory-worker-young-handsome-factory--YCR9MGX\/preview"
+        },
+        {
+            "filename": "About-icon1.png",
+            "thumbnail_url": "https:\/\/elementorpress.com\/poolrez\/wp-content\/uploads\/2024\/05\/About-icon1.png",
+            "templates": [
+                {
+                    "source": "templates\/home-02.json",
+                    "name": "Home 02"
+                }
+            ],
+            "filesize": 1275,
+            "dimensions": [
+                56,
+                56
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": " https:\/\/elements.envato.com\/fr\/business-icons-KSVEWAK\/preview"
+        },
+        {
+            "filename": "pricing-icon1.png",
+            "thumbnail_url": "https:\/\/elementorpress.com\/poolrez\/wp-content\/uploads\/2024\/05\/pricing-icon1.png",
+            "templates": [
+                {
+                    "source": "templates\/home-02.json",
+                    "name": "Home 02"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                }
+            ],
+            "filesize": 830,
+            "dimensions": [
+                46,
+                60
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/fr\/cleaning-service-outline-icons-F3MZ5N7"
+        },
+        {
+            "filename": "pricing-4.png",
+            "thumbnail_url": "https:\/\/elementorpress.com\/poolrez\/wp-content\/uploads\/2024\/05\/pricing-4.png",
+            "templates": [
+                {
+                    "source": "templates\/home-02.json",
+                    "name": "Home 02"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                }
+            ],
+            "filesize": 1178,
+            "dimensions": [
+                58,
+                60
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/fr\/cleaning-service-outline-icons-F3MZ5N7"
+        },
+        {
+            "filename": "pricing-icon3.png",
+            "thumbnail_url": "https:\/\/elementorpress.com\/poolrez\/wp-content\/uploads\/2024\/05\/pricing-icon3.png",
+            "templates": [
+                {
+                    "source": "templates\/home-02.json",
+                    "name": "Home 02"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                }
+            ],
+            "filesize": 1299,
+            "dimensions": [
+                59,
+                54
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/fr\/cleaning-service-outline-icons-F3MZ5N7"
+        },
+        {
+            "filename": "High-Quality-Cleaning-bg-img.jpg",
+            "thumbnail_url": "https:\/\/elementorpress.com\/poolrez\/wp-content\/uploads\/2024\/05\/High-Quality-Cleaning-bg-img.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-02.json",
+                    "name": "Home 02"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "Faq"
+                },
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our team"
+                }
+            ],
+            "filesize": 165602,
+            "dimensions": [
+                1920,
+                538
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/fr\/swimming-pool-PBUA6AU"
+        },
+        {
+            "filename": "testimonials-img-1-1.png",
+            "thumbnail_url": "https:\/\/elementorpress.com\/poolrez\/wp-content\/uploads\/2024\/05\/testimonials-img-1-1.png",
+            "templates": [
+                {
+                    "source": "templates\/home-02.json",
+                    "name": "Home 02"
+                },
+                {
+                    "source": "templates\/testimonials.json",
+                    "name": "Testimonials"
+                }
+            ],
+            "filesize": 2815,
+            "dimensions": [
+                54,
+                54
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/collage-of-happy-multiracial-people-faces-on-gray--UBNG9AE"
+        },
+        {
+            "filename": "testimonials-img-2-1.png",
+            "thumbnail_url": "https:\/\/elementorpress.com\/poolrez\/wp-content\/uploads\/2024\/05\/testimonials-img-2-1.png",
+            "templates": [
+                {
+                    "source": "templates\/home-02.json",
+                    "name": "Home 02"
+                },
+                {
+                    "source": "templates\/testimonials.json",
+                    "name": "Testimonials"
+                }
+            ],
+            "filesize": 2547,
+            "dimensions": [
+                54,
+                54
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/collage-of-happy-multiracial-people-faces-on-gray--UBNG9AE"
+        },
+        {
+            "filename": "Home-03-bg-.jpg",
+            "thumbnail_url": "https:\/\/elementorpress.com\/poolrez\/wp-content\/uploads\/2024\/05\/Home-03-bg-.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-03.json",
+                    "name": "Home 03"
+                }
+            ],
+            "filesize": 235870,
+            "dimensions": [
+                1920,
+                920
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/fr\/outdoor-swimming-pool-T875GWY"
+        },
+        {
+            "filename": "Pool-cleaning-icon.png",
+            "thumbnail_url": "https:\/\/elementorpress.com\/poolrez\/wp-content\/uploads\/2024\/05\/Pool-cleaning-icon.png",
+            "templates": [
+                {
+                    "source": "templates\/home-03.json",
+                    "name": "Home 03"
+                }
+            ],
+            "filesize": 790,
+            "dimensions": [
+                45,
+                52
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/fr\/cleaning-service-outline-icons-F3MZ5N7"
+        },
+        {
+            "filename": "Euipe-instuller-icon.png",
+            "thumbnail_url": "https:\/\/elementorpress.com\/poolrez\/wp-content\/uploads\/2024\/05\/Euipe-instuller-icon.png",
+            "templates": [
+                {
+                    "source": "templates\/home-03.json",
+                    "name": "Home 03"
+                }
+            ],
+            "filesize": 1056,
+            "dimensions": [
+                46,
+                54
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/fr\/cleaning-service-outline-icons-F3MZ5N7"
+        },
+        {
+            "filename": "Mantinance-icon.png",
+            "thumbnail_url": "https:\/\/elementorpress.com\/poolrez\/wp-content\/uploads\/2024\/05\/Mantinance-icon.png",
+            "templates": [
+                {
+                    "source": "templates\/home-03.json",
+                    "name": "Home 03"
+                }
+            ],
+            "filesize": 705,
+            "dimensions": [
+                51,
+                45
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/fr\/cleaning-service-outline-icons-F3MZ5N7"
+        },
+        {
+            "filename": "about-home-03.jpg",
+            "thumbnail_url": "https:\/\/elementorpress.com\/poolrez\/wp-content\/uploads\/2024\/05\/about-home-03.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home-03.json",
+                    "name": "Home 03"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "Faq"
+                }
+            ],
+            "filesize": 49526,
+            "dimensions": [
+                635,
+                640
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/fr\/friends-in-a-swimming-pool-2NB7MNX"
+        },
+        {
+            "filename": "pricing-icon-1.png",
+            "thumbnail_url": "https:\/\/elementorpress.com\/poolrez\/wp-content\/uploads\/2024\/05\/pricing-icon-1.png",
+            "templates": [
+                {
+                    "source": "templates\/home-03.json",
+                    "name": "Home 03"
+                }
+            ],
+            "filesize": 1701,
+            "dimensions": [
+                99,
+                99
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/fr\/cleaning-service-outline-icons-F3MZ5N7"
+        },
+        {
+            "filename": "pricing-icon-2.png",
+            "thumbnail_url": "https:\/\/elementorpress.com\/poolrez\/wp-content\/uploads\/2024\/05\/pricing-icon-2.png",
+            "templates": [
+                {
+                    "source": "templates\/home-03.json",
+                    "name": "Home 03"
+                }
+            ],
+            "filesize": 1704,
+            "dimensions": [
+                99,
+                99
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/fr\/cleaning-service-outline-icons-F3MZ5N7"
+        },
+        {
+            "filename": "testimonials-03.png",
+            "thumbnail_url": "https:\/\/elementorpress.com\/poolrez\/wp-content\/uploads\/2024\/05\/testimonials-03.png",
+            "templates": [
+                {
+                    "source": "templates\/home-03.json",
+                    "name": "Home 03"
+                }
+            ],
+            "filesize": 4764,
+            "dimensions": [
+                88,
+                88
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/collage-of-happy-multiracial-people-faces-on-gray--UBNG9AE"
+        },
+        {
+            "filename": "SERVICES-BG.jpg",
+            "thumbnail_url": "https:\/\/elementorpress.com\/poolrez\/wp-content\/uploads\/2024\/05\/SERVICES-BG.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "Faq"
+                },
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our team"
+                },
+                {
+                    "source": "templates\/testimonials.json",
+                    "name": "Testimonials"
+                },
+                {
+                    "source": "templates\/blog.json",
+                    "name": "Blog"
+                },
+                {
+                    "source": "templates\/contact-us.json",
+                    "name": "Contact us"
+                }
+            ],
+            "filesize": 276959,
+            "dimensions": [
+                1920,
+                1135
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/fr\/outdoor-swimming-pool-T875GWY"
+        },
+        {
+            "filename": "About-page-img.jpg",
+            "thumbnail_url": "https:\/\/elementorpress.com\/poolrez\/wp-content\/uploads\/2024\/05\/About-page-img.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 32228,
+            "dimensions": [
+                531,
+                531
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/fr\/friends-in-a-swimming-pool-2NB7MNX"
+        },
+        {
+            "filename": "about-img-2.jpg",
+            "thumbnail_url": "https:\/\/elementorpress.com\/poolrez\/wp-content\/uploads\/2024\/05\/about-img-2.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 8190,
+            "dimensions": [
+                224,
+                220
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/fr\/homeowner-cleaning-patio-poolside-deck-UW9398L"
+        },
+        {
+            "filename": "our-team-8.jpg",
+            "thumbnail_url": "https:\/\/elementorpress.com\/poolrez\/wp-content\/uploads\/2024\/05\/our-team-8.jpg",
+            "templates": [
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our team"
+                }
+            ],
+            "filesize": 5547,
+            "dimensions": [
+                255,
+                255
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/fr\/collection-of-portraits-with-cheerful-millennials--P3RKYH9"
+        },
+        {
+            "filename": "our-team7.jpg",
+            "thumbnail_url": "https:\/\/elementorpress.com\/poolrez\/wp-content\/uploads\/2024\/05\/our-team7.jpg",
+            "templates": [
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our team"
+                }
+            ],
+            "filesize": 5690,
+            "dimensions": [
+                255,
+                255
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/fr\/collection-of-portraits-with-cheerful-millennials--P3RKYH9"
+        },
+        {
+            "filename": "our-team6.jpg",
+            "thumbnail_url": "https:\/\/elementorpress.com\/poolrez\/wp-content\/uploads\/2024\/05\/our-team6.jpg",
+            "templates": [
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our team"
+                }
+            ],
+            "filesize": 6005,
+            "dimensions": [
+                255,
+                255
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/fr\/collection-of-portraits-with-cheerful-millennials--P3RKYH9"
+        },
+        {
+            "filename": "our-team5.jpg",
+            "thumbnail_url": "https:\/\/elementorpress.com\/poolrez\/wp-content\/uploads\/2024\/05\/our-team5.jpg",
+            "templates": [
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our team"
+                }
+            ],
+            "filesize": 7191,
+            "dimensions": [
+                255,
+                255
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/fr\/collection-of-portraits-with-cheerful-millennials--P3RKYH9"
+        },
+        {
+            "filename": "About-bg.jpg",
+            "thumbnail_url": "https:\/\/elementorpress.com\/poolrez\/wp-content\/uploads\/2024\/05\/About-bg.jpg",
+            "templates": [
+                {
+                    "source": "templates\/single-post.json",
+                    "name": "Single Post"
+                }
+            ],
+            "filesize": 141733,
+            "dimensions": [
+                1920,
+                530
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/fr\/outdoor-swimming-pool-T875GWY"
+        },
+        {
+            "filename": "loctaction-icon.png",
+            "thumbnail_url": "https:\/\/elementorpress.com\/poolrez\/wp-content\/uploads\/2024\/05\/loctaction-icon.png",
+            "templates": [
+                {
+                    "source": "templates\/contact-us.json",
+                    "name": "Contact us"
+                }
+            ],
+            "filesize": 671,
+            "dimensions": [
+                48,
+                48
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/fr\/contact-us-unique-web-line-icons-pack-HMYAEYL"
+        },
+        {
+            "filename": "head-phome-icon.png",
+            "thumbnail_url": "https:\/\/elementorpress.com\/poolrez\/wp-content\/uploads\/2024\/05\/head-phome-icon.png",
+            "templates": [
+                {
+                    "source": "templates\/contact-us.json",
+                    "name": "Contact us"
+                }
+            ],
+            "filesize": 535,
+            "dimensions": [
+                48,
+                48
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/fr\/contact-us-unique-web-line-icons-pack-HMYAEYL"
+        },
+        {
+            "filename": "envolop-icon.png",
+            "thumbnail_url": "https:\/\/elementorpress.com\/poolrez\/wp-content\/uploads\/2024\/05\/envolop-icon.png",
+            "templates": [
+                {
+                    "source": "templates\/contact-us.json",
+                    "name": "Contact us"
+                }
+            ],
+            "filesize": 465,
+            "dimensions": [
+                48,
+                48
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/fr\/contact-us-unique-web-line-icons-pack-HMYAEYL"
+        }
+    ]
+}
