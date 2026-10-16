@@ -1,4 +1,5 @@
 User-agent: *
+Disallow: /cdn-cgi/
 Allow: /
 Crawl-delay:3
 sitemap: https://wp0.codev.id/sitemap.xml
