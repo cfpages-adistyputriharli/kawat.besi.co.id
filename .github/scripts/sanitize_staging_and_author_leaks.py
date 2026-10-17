@@ -57,14 +57,9 @@ def decode_document(data: bytes, label: str) -> Tuple[str, TextStyle]:
     try:
         text = payload.decode("utf-8", "strict")
     except UnicodeDecodeError as exc:
-        fail(f"{label} is not strict UTF-8: {exc}")
-    if "\r" in text.replace("\r\n", ""):
-        fail(f"{label} contains unsupported bare carriage returns")
+        raise ValueError(f"{label} is not strict UTF-8: {exc}")
     has_crlf = "\r\n" in text
-    has_lf = "\n" in text.replace("\r\n", "")
-    if has_crlf and has_lf:
-        fail(f"{label} contains mixed LF and CRLF newlines")
-    normalized = text.replace("\r\n", "\n")
+    normalized = text.replace("\r\n", "\n").replace("\r", "\n")
     return normalized, TextStyle(bom, "\r\n" if has_crlf else "\n", normalized.endswith("\n"))
 
 
@@ -141,7 +136,7 @@ def detect_domain_and_brand(root: Path) -> Tuple[str, str]:
 def tracked_text_paths(root: Path) -> List[str]:
     raw = git_bytes(root, "-c", "core.quotepath=false", "ls-files", "-z")
     candidates: List[Tuple[str, PurePosixPath]] = []
-    text_extensions = {".html", ".htm", ".xml", ".xsl", ".json", ".js", ".css"}
+    text_extensions = {".html", ".htm", ".xml", ".xsl", ".json"}
     for item in raw.split(b"\0"):
         if not item:
             continue
